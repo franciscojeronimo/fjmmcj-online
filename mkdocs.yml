@@ -1,4 +1,42 @@
-site_name: Francisco Online
+site_name: Francisco Jerónimo
+site_description: Personal webpage of Francisco — projects, interests, and more.
 site_url: https://franciscojeronimo.github.io/fjmmcj-online/
+
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.action.edit
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Soundboard: projects/soundboard.md
+      - Python Tools: projects/python-tools.md
+  - Interests:
+      - Board Games: interests/board-games.md
+      - Audio & Tech: interests/audio-tech.md
+  - About Me: about.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/franciscojeronimo
+    - icon: fontawesome/solid/dice
+      link: https://boardgamegeek.com
