@@ -1,0 +1,10 @@
+/* Custom styles for larger logo */
+.md-header__button.md-logo img {
+  width: 48px;
+  height: auto;
+}
+
+.md-nav__button.md-logo img {
+  width: 48px;
+  height: auto;
+}
