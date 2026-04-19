@@ -2,8 +2,15 @@ site_name: Francisco Jerónimo
 site_description: Personal webpage of Francisco — projects, interests, and more.
 site_url: https://franciscojeronimo.github.io/fjmmcj-online/
 
+copyright: "© 2026 Francisco Jerónimo"
+
+extra_css:
+  - assets/stylesheets/extra.css
+
 theme:
   name: material
+  logo: assets/images/log_v1.png
+  favicon: assets/images/favicon_v1.png
   palette:
     scheme: slate
     primary: indigo
@@ -35,8 +42,10 @@ markdown_extensions:
   - attr_list
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/franciscojeronimo
     - icon: fontawesome/solid/dice
       link: https://boardgamegeek.com
+
