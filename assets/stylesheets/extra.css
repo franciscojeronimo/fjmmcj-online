@@ -1,10 +1,193 @@
+/* Modern Design System */
+:root {
+  --color-accent-light: #818cf8;
+  --color-accent-dark: #6366f1;
+  --color-bg-card: rgba(129, 140, 248, 0.05);
+  --color-border: rgba(129, 140, 248, 0.2);
+}
+
 /* Custom styles for larger logo */
 .md-header__button.md-logo img {
   width: 48px;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+.md-header__button.md-logo img:hover {
+  transform: scale(1.05);
 }
 
 .md-nav__button.md-logo img {
   width: 48px;
   height: auto;
+}
+
+/* Modern Typography */
+.md-typeset h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.03em;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #818cf8 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.md-typeset h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #818cf8;
+  border-bottom: 2px solid rgba(129, 140, 248, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.md-typeset h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #818cf8;
+}
+
+.md-typeset h4 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #818cf8;
+}
+
+.md-typeset p,
+.md-typeset li {
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Card-based layout for sections */
+.md-typeset .admonition,
+.md-typeset details {
+  border-left: 4px solid #818cf8;
+  background: var(--color-bg-card);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  transition: all 0.3s ease;
+  border: 1px solid var(--color-border);
+}
+
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+  background: rgba(129, 140, 248, 0.1);
+  transform: translateX(4px);
+}
+
+/* Enhanced list styling */
+.md-typeset ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.md-typeset ul li {
+  padding-left: 1.75rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.md-typeset ul li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #818cf8;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Skill badges */
+.skill-badge {
+  display: inline-block;
+  background: rgba(129, 140, 248, 0.15);
+  border: 1px solid rgba(129, 140, 248, 0.4);
+  color: #818cf8;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin: 0.35rem;
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  background: rgba(129, 140, 248, 0.25);
+  border-color: #818cf8;
+  transform: translateY(-2px);
+}
+
+/* Timeline styling */
+.timeline-item {
+  margin-left: 2rem;
+  padding: 1.5rem;
+  border-left: 3px solid #818cf8;
+  background: var(--color-bg-card);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:before {
+  content: "●";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  font-size: 1.5rem;
+  color: #818cf8;
+}
+
+.timeline-item:hover {
+  background: rgba(129, 140, 248, 0.12);
+  transform: translateX(4px);
+}
+
+.timeline-item strong {
+  color: #818cf8;
+  font-weight: 600;
+}
+
+/* CTA button styling */
+.md-button {
+  background: linear-gradient(135deg, #818cf8 0%, #6366f1 100%);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(129, 140, 248, 0.3);
+}
+
+/* Section dividers */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #818cf8, transparent);
+  margin: 2rem 0;
+}
+
+/* Code block enhancement */
+.md-typeset code {
+  background: rgba(129, 140, 248, 0.1);
+  color: #818cf8;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+}
+
+.md-typeset pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
 }
