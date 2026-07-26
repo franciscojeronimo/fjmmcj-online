@@ -1,37 +1,49 @@
-# Francisco Jerónimo
+# Francisco Jerónimo — Python Developer
 
-Welcome to my personal webpage! This space serves as a comprehensive showcase of my professional journey, skills, and current accomplishments in the field of technology and software development.
-
-## About Me
-
-I am Francisco Jerónimo, a passionate [your profession, e.g., software developer/engineer] with a strong foundation in [mention key areas, e.g., programming, data analysis, web development]. My professional path has been driven by a commitment to innovation, continuous learning, and delivering impactful solutions.
-
-## Professional Background
-
-With [X years] of experience in the tech industry, I have had the opportunity to work on diverse projects spanning [mention key technologies or domains, e.g., web applications, data science, AI/ML]. My expertise includes:
-
-- **Programming Languages**: [List languages, e.g., Python, JavaScript, etc.]
-- **Technologies & Frameworks**: [List key tools, e.g., React, Node.js, Django, etc.]
-- **Key Skills**: [Mention soft skills or technical expertise, e.g., problem-solving, team collaboration, agile methodologies]
-
-## Current Accomplishments
-
-Recently, I have been focusing on [mention current projects or interests, e.g., developing open-source tools, contributing to AI research, building scalable web applications]. Some highlights include:
-
-- [Briefly describe a recent project or achievement]
-- [Another accomplishment]
-- [Current learning goals or certifications]
-
-## What You'll Find Here
-
-This website is organized to provide you with easy access to:
-
-- **Projects**: A portfolio of my work, including code repositories and live demos
-- **Interests**: Insights into my hobbies and how they influence my professional approach
-- **About Me**: More detailed information about my background and contact details
-
-Feel free to explore the different sections and reach out if you'd like to connect or discuss potential collaborations. I'm always excited to engage with fellow professionals and explore new opportunities!
+I build production-ready Python applications and collaborate with AI tools like GitHub Copilot to deliver clean, maintainable code. I am currently training for the GitHub Copilot certification while strengthening my expertise in Python, automation, and developer tooling.
 
 ---
 
-*Last updated: [Current Date]* 
+## About
+
+I focus on practical software solutions that solve real problems. My work is guided by strong engineering practices, thoughtful architecture, and continuous improvement.
+
+With experience in backend development, automation, and collaborative AI-assisted coding, I deliver solutions that are not just functional, but maintainable and scalable.
+
+## Core Skills
+
+<span class="skill-badge">Python</span>
+<span class="skill-badge">Backend Development</span>
+<span class="skill-badge">GitHub Copilot</span>
+<span class="skill-badge">Automation</span>
+<span class="skill-badge">Data Processing</span>
+<span class="skill-badge">API Design</span>
+<span class="skill-badge">CLI Tools</span>
+<span class="skill-badge">Testing & QA</span>
+<span class="skill-badge">Developer Tooling</span>
+
+---
+
+## What I Bring
+
+- **Python Application Development** — Backend services, automation scripts, and data processing pipelines
+- **AI-Assisted Coding** — Leveraging GitHub Copilot for efficient, intelligent development
+- **Code Quality** — Testing, debugging, documentation, and continuous improvement
+- **Modern Architecture** — Thoughtful API design, CLI tools, and developer-friendly solutions
+- **Collaboration** — Version control, clear communication, and team coordination
+
+---
+
+## Current Direction
+
+I am focused on mastering Python development and pursuing the **GitHub Copilot certification** to deepen my expertise in AI-assisted development. This involves:
+
+- Building robust, production-ready solutions
+- Exploring modern development practices
+- Contributing to projects that demonstrate practical engineering excellence
+
+Explore the **About Me** section to learn more about my professional background and career trajectory.
+
+---
+
+*Last updated: 2026-07-26* 
